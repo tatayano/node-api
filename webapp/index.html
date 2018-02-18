@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html data-ng-app="deus">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Api node with express</title>
+</head>
+
+<body data-ng-controller="jesus">
+  <h1>Jesus pensador</h1>
+  <div>
+    <h4>buscar frases por id</h4>
+  </div>
+  <form name="buscarFraseId" novalidate data-ng-submit="buscarFrase(buscarFraseId)">
+    <div>
+      <label for="idFrase">Digite o id da frase desejada</label>
+      <input type="number" id="idFrase" data-ng-model="idFrase">
+    </div>
+    <div>
+      <button type="submit">Buscar frase</button>
+    </div>
+  </form>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

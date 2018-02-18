@@ -1,0 +1,10 @@
+node_modules
+public
+.tmp
+.idea
+client/bower_components
+client/app/app.constants.js
+dist
+/server/config/local.env.js
+*.sublime-project
+*.sublime-workspace
